@@ -2,14 +2,41 @@
 kali-linux-core
 kali-desktop-live
 
-# Kali applications
-#<package>
-# You can customize the set of Kali metapackages (groups of tools) to install
+# Metapackages
 # For the complete list see: https://tools.kali.org/kali-metapackages
 kali-linux-default
 # kali-linux-large
 # kali-linux-everything
 # kali-tools-top10
+kali-tools-information-gathering
+kali-tools-forensics
+kali-tools-crypto-stego
+
+#Specific Tools
+chromium
+wget
+whois
+wine
+wireshark
+openvpn
+nano
+firefox-esr
+torbrowser-launcher
+spiderfoot
+sherlock
+python3-shodan
+maltego
+theharvester
+webhttrack
+stegosuite
+youtube-dl
 
 # Graphical desktop
 kali-desktop-xfce
+
+#browser extensions
+webext-https-everywhere
+webext-browserpass
+webext-ublock-origin
+webext-privacy-badger
+webext-bulk-media-downloader
